@@ -8,7 +8,7 @@
 import unittest
 from HTMLTestRunner import HTMLTestRunner
 
-from woniusale_req.tools.util import Utility
+from tools.util import Utility
 
 
 class Startup:

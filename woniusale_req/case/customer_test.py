@@ -1,6 +1,6 @@
 import unittest, warnings
 from parameterized import parameterized
-from woniusale_req.tools.util import Utility
+from tools.util import Utility
 
 
 class CustomerTest(unittest.TestCase):
@@ -20,8 +20,8 @@ class CustomerTest(unittest.TestCase):
         pass
 
     def setUp(self):
-        from woniusale_req.lib.customer import Customer
-        from woniusale_req.tools.service import Service
+        from lib.customer import Customer
+        from tools.service import Service
         self.min = Customer(Service.get_session())
 
     def tearDown(self):
